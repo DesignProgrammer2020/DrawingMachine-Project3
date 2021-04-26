@@ -208,7 +208,7 @@ function drawAnimal() {
   push();
   translate(-0.15 * width, 0.15 * height);
   beginShape();
-  //lines with different shades of brown
+  //lines with different shades of dark brown
   stroke(random(40, 170), random(20, 100), random(0, 50));
   scale(0.85);
   for (let i = 0; i < array.length; i++) {
